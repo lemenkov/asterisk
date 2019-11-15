@@ -426,7 +426,7 @@ check_gdb() {
 		EOF
 	fi
 
-	result=$($GDB --batch --ex "python print('hello')" 2>/dev/null || : )
+	result=$($GDB --batch --ex "python2 print('hello')" 2>/dev/null || : )
 	if [[ ! "$result" =~ ^hello$ ]] ; then
 		die -2 <<-EOF
 		$GDB does not support python.
