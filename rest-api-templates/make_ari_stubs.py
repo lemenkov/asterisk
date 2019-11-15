@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # Asterisk -- An open source telephony toolkit.
 #
 # Copyright (C) 2013, Digium, Inc.
