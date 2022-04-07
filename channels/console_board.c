@@ -41,6 +41,7 @@
 	<support_level>extended</support_level>
  ***/
 
+#define ASTMM_LIBC ASTMM_IGNORE
 #include "asterisk.h"	/* ast_strdupa */
 #include "asterisk/utils.h"	/* ast_strdupa */
 #include "console_video.h"	/* ast_strdupa */
